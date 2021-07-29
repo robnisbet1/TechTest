@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "at8tM7NtaWz1Ht2dabqT7EQvLEKNEDpD2dOEE9TsfjRP7F/aCK7G9/51pOjDNao7xETX1qVfkEcSqZ0DuCDHYg==",
+  "success": true,
+  "projectFilePath": "S:\\Development\\Technical Tests\\RyanWong\\Code\\InvestmentProjection\\InvestmentProjection.BusinessLogic\\InvestmentProjection.BusinessLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\James.Dibble\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

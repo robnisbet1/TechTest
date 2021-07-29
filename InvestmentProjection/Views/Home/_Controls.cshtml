@@ -1,0 +1,73 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using InvestmentProjection.BusinessLogic.Models
+@model InvestmentChartModel
+@{
+}
+
+<form id="investmentChartControls" asp-controller="Calculations" asp-action="CalculateChartData">
+    <div>
+        @Html.LabelFor(m => m.LumpSumInvestment)
+        @Html.TextBoxFor(m => m.LumpSumInvestment)
+    </div>
+
+
+    <div>
+        @Html.LabelFor(m => m.MonthlyInvestment)
+        @Html.TextBoxFor(m => m.MonthlyInvestment)
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.TargetValue)
+        @Html.TextBoxFor(m => m.TargetValue)
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.Timescale)
+        @Html.TextBoxFor(m => m.Timescale)
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.RiskLevel)
+        @Html.DropDownListFor(m => m.RiskLevel, new SelectList(Enum.GetValues(typeof(RiskLevel))), "Select Risk Level")
+    </div>
+
+    <input type="submit" value="Submit" onclick="GenerateChart(event)" />
+</form>
+
+<script type="text/javascript">
+    function GenerateChart(e) {
+        e.preventDefault();
+
+        var url = $("#investmentChartControls").attr("action");
+
+        var data = {
+            "lumpSumInvestment": $("#LumpSumInvestment").val(),
+            "monthlyInvestment": $("#MonthlyInvestment").val(),
+            "targetValue": $("#TargetValue").val(),
+            "timescale": $("#Timescale").val(),
+            "riskLevel": $("#RiskLevel").val(),
+        };
+
+        $.ajax({
+            type: 'GET',
+            url: url,
+            data: data,
+            success: function (response) {
+                createChart(
+                    response.labels,
+                    response.totalInvested,
+                    data.targetValue,
+                    data.timescale,
+                    response.growth,
+                );
+            },
+            error: function (response) {
+
+            }
+        });
+
+        return false;
+    }
+</script>

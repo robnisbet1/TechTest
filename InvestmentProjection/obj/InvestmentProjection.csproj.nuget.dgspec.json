@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "S:\\Development\\Technical Tests\\RyanWong\\Code\\InvestmentProjection\\InvestmentProjection\\InvestmentProjection.csproj": {}
+  },
+  "projects": {
+    "S:\\Development\\Technical Tests\\RyanWong\\Code\\InvestmentProjection\\InvestmentProjection.BusinessLogic\\InvestmentProjection.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "S:\\Development\\Technical Tests\\RyanWong\\Code\\InvestmentProjection\\InvestmentProjection.BusinessLogic\\InvestmentProjection.BusinessLogic.csproj",
+        "projectName": "InvestmentProjection.BusinessLogic",
+        "projectPath": "S:\\Development\\Technical Tests\\RyanWong\\Code\\InvestmentProjection\\InvestmentProjection.BusinessLogic\\InvestmentProjection.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\James.Dibble\\.nuget\\packages\\",
+        "outputPath": "S:\\Development\\Technical Tests\\RyanWong\\Code\\InvestmentProjection\\InvestmentProjection.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\James.Dibble\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Parmenion/_packaging/ParmenionNugetPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "S:\\Development\\Technical Tests\\RyanWong\\Code\\InvestmentProjection\\InvestmentProjection\\InvestmentProjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "S:\\Development\\Technical Tests\\RyanWong\\Code\\InvestmentProjection\\InvestmentProjection\\InvestmentProjection.csproj",
+        "projectName": "InvestmentProjection",
+        "projectPath": "S:\\Development\\Technical Tests\\RyanWong\\Code\\InvestmentProjection\\InvestmentProjection\\InvestmentProjection.csproj",
+        "packagesPath": "C:\\Users\\James.Dibble\\.nuget\\packages\\",
+        "outputPath": "S:\\Development\\Technical Tests\\RyanWong\\Code\\InvestmentProjection\\InvestmentProjection\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\James.Dibble\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Parmenion/_packaging/ParmenionNugetPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "S:\\Development\\Technical Tests\\RyanWong\\Code\\InvestmentProjection\\InvestmentProjection.BusinessLogic\\InvestmentProjection.BusinessLogic.csproj": {
+                "projectPath": "S:\\Development\\Technical Tests\\RyanWong\\Code\\InvestmentProjection\\InvestmentProjection.BusinessLogic\\InvestmentProjection.BusinessLogic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Web.LibraryManager.Build": {
+              "target": "Package",
+              "version": "[2.1.113, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

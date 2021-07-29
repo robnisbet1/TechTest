@@ -1,0 +1,9 @@
+S:\Development\Technical Tests\RyanWong\Code\InvestmentProjection\InvestmentProjection.BusinessLogic\bin\Debug\netstandard2.1\InvestmentProjection.BusinessLogic.deps.json
+S:\Development\Technical Tests\RyanWong\Code\InvestmentProjection\InvestmentProjection.BusinessLogic\bin\Debug\netstandard2.1\InvestmentProjection.BusinessLogic.dll
+S:\Development\Technical Tests\RyanWong\Code\InvestmentProjection\InvestmentProjection.BusinessLogic\bin\Debug\netstandard2.1\InvestmentProjection.BusinessLogic.pdb
+S:\Development\Technical Tests\RyanWong\Code\InvestmentProjection\InvestmentProjection.BusinessLogic\obj\Debug\netstandard2.1\InvestmentProjection.BusinessLogic.AssemblyInfoInputs.cache
+S:\Development\Technical Tests\RyanWong\Code\InvestmentProjection\InvestmentProjection.BusinessLogic\obj\Debug\netstandard2.1\InvestmentProjection.BusinessLogic.AssemblyInfo.cs
+S:\Development\Technical Tests\RyanWong\Code\InvestmentProjection\InvestmentProjection.BusinessLogic\obj\Debug\netstandard2.1\InvestmentProjection.BusinessLogic.csproj.CoreCompileInputs.cache
+S:\Development\Technical Tests\RyanWong\Code\InvestmentProjection\InvestmentProjection.BusinessLogic\obj\Debug\netstandard2.1\InvestmentProjection.BusinessLogic.dll
+S:\Development\Technical Tests\RyanWong\Code\InvestmentProjection\InvestmentProjection.BusinessLogic\obj\Debug\netstandard2.1\InvestmentProjection.BusinessLogic.pdb
+S:\Development\Technical Tests\RyanWong\Code\InvestmentProjection\InvestmentProjection.BusinessLogic\obj\Debug\netstandard2.1\InvestmentProjection.BusinessLogic.csprojAssemblyReference.cache
